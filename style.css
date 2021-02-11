@@ -1,0 +1,28 @@
+body {
+  background: #c5c5c5;
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #34495E;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 20px;
+  margin: 0 3px 5px 0;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#texto {
+  border: 2px #34495E solid;
+  border-radius: 2px;
+  overflow-y: scroll;
+}
